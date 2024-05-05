@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Text Color Animation</title>
+<style>
+    @keyframes changeColor {
+        0%, 100% { color: red; }
+        25% { color: green; }
+        50% { color: blue; }
+        75% { color: orange; }
+    }
+
+    .rainbow-text {
+        font-size: 24px;
+        font-weight: bold;
+        animation: changeColor 5s infinite;
+    }
+</style>
+</head>
+<body>
+    <p class="rainbow-text">I</p>
+    <p class="rainbow-text">LOVE</p>
+    <p class="rainbow-text">YOU</p>
+</body>
+</html>
